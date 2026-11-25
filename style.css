@@ -1,11 +1,12 @@
  body {
-  background: linear-gradient(to left, #315c4c, #f2a7b5);
+  background: linear-gradient(to left, #01478e, #830137);
   min-height: 100vh;
   margin: 15px;
 }
     h1 {
-      text-align: center;
+      text-align: left;
       font-size:56px;
+      color: white;
     }
     h2 {
       text-align: left;
@@ -14,24 +15,30 @@
     h3 {
       text-align: left;
       font-size: 24px;
+      color:white;
     }
     p1{
         text-align: left;
         font-size: 20px;
         line-height:1.5;
+        color:white;
     }
     p2{
         text-align: left;
         font-size: 20px;
+        color:white;
+    }
+    p{
+
     }
  
 .floating-card {
-  background: near-gradient(135deg, #e0c3fc, #8ec5fc);
+  background: linear-gradient(135deg, #01478e, #830137);
   padding: 25px 30px;                    
   border-radius: 15px;                   
   max-width: 800px;                      
   margin: 30px auto;                     
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25); 
+  box-shadow: 0 15px 35px rgba(255, 237, 2, 0.834); 
   transition: transform 0.3s ease;       
 }
 
@@ -42,3 +49,31 @@
 .floating-card h2 {
   margin-top: 0;
 }
+button{
+  background: linear-gradient(135deg, #01478e, #830137);
+  padding: 25px 30px;                    
+  border-radius: 15px;                   
+  max-width: 800px;                      
+  margin: 30px auto;                     
+  box-shadow: 0 15px 35px rgba(255, 237, 2, 0.834); 
+    transition: transform 0.3s ease; 
+}
+.contact-info {
+  position: absolute;
+  top:10px;
+  right:10px;
+  color:aliceblue
+}
+#my-contact {
+  position: absolute;
+  center: 10px;
+  right: 15px;
+  background: linear-gradient(135deg, #01478e, #830137);
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 15px 35px rgba(255, 237, 2, 0.834); 
+    transition: transform 0.3s ease; 
+    color: white;
+}
+

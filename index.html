@@ -9,10 +9,25 @@
     
   </head>
 <body>
-
-  <h1>VIMAL RAJ C</h1>
-  <div
-    class="floating-card">
+   <h1>VIMAL RAJ C</h1>
+   <button class="contact-info" onclick="toggleContact()">Contact Info</button>
+  <div id="my-contact" style="display: none;">
+    <p>Phone: +91 86104 21600</p>
+    <p>Email: chinnsvimalraj@gmail.com</p>
+  </div>
+   <script>
+    function toggleContact() {
+      var x = document.getElementById("my-contact");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</body>
+ <div class="floating-card">
+  
   <h2>OBJECTIVES</h2><br><p1>Computer Science and Engineering student with interest in full-stack web development and AI/ML, seeking an
 entry-level role where I can apply my skills in Java, SQL, and React to build useful software solutions and keep learning.
     
@@ -20,15 +35,15 @@ entry-level role where I can apply my skills in Java, SQL, and React to build us
    
   <div
     class="floating-card">
-    <p2>
-    <h2>TECHNICAL SKILLS</h2><br>Programming Languages: Java, JavaScript, SQL, Python (Learner)
+  
+    <h2>TECHNICAL SKILLS</h2><br><p2>Programming Languages: Java, JavaScript, SQL, Python (Learner)
 Web Technologies: HTML, React, Node.js, Express.js
 Database & Tools: MongoDB, Git
   </p2></div><br>
    <div
     class="floating-card">
   <h2>
-    Experience:</h2><br><p2>
+    EXPERIENCE</h2><br><p2>
         Web Development Intern May 2025<br> – July 2025
 Aura Tech Solutions Chennai, Tamil Nadu
 <br>– Worked with the development team to build responsive UI components using React.
@@ -36,7 +51,7 @@ Aura Tech Solutions Chennai, Tamil Nadu
 <br>– Assisted in managing and structuring database collections within MongoDB
     </p2></div>
      <div
-    class="floating-card"><h2>Projects</h2><br><h3>Neighborhood Exchange AI
+    class="floating-card"><h2>PROJECTS</h2><br><h3>Neighborhood Exchange AI
 </h3><br><p2>
     – -Developing an AI-driven hyperlocal resource-sharing platform where users describe what they need in natural
 language and get matched with suitable items from people nearby.
